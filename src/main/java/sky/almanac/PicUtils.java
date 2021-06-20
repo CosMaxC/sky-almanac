@@ -49,6 +49,7 @@ public class PicUtils {
 
         printGraph(graphics2D, 60, 100, luckMiddle, unluckMiddle, srcImgHeight, srcImgWidth, todayInfo, limit);
 
+        graphics2D.dispose();
         // 保存
         outPutImage(targetPath, bufImg, "jpg");
     }
